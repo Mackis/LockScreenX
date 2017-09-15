@@ -11,11 +11,6 @@ import SwiftIcons
 import SnapKit
 
 class LockScreenVC: UIViewController {
-
-    // MARK: - Properties
-    let calendar = Calendar(identifier: .gregorian)
-    let today = Date()
-    
     
     // MARK: - UI Components
     lazy var bgImageView: UIImageView = {
@@ -31,6 +26,7 @@ class LockScreenVC: UIViewController {
         return v
     }()
     
+    
     // Labels
     lazy var timeLabel: UILabel = {
         let l = UILabel()
@@ -45,7 +41,7 @@ class LockScreenVC: UIViewController {
         l.textColor = .white
         let dF = DateFormatter()
         dF.dateFormat = "EEEE, dd MMMM"
-        let thisDay = dF.string(from: today)
+        let thisDay = dF.string(from: Date())
         l.text = thisDay
         l.font = Theme.fonts.avenirMedium(size: 25)
         return l
@@ -153,17 +149,18 @@ class LockScreenVC: UIViewController {
         dateLabel.snp.makeConstraints{ make in
             make.top.equalTo(timeLabel.snp.bottom).inset(Theme.inset.single)
             make.left.equalTo(timeLabel).inset(Theme.inset.single)
-            make.width.lessThanOrEqualToSuperview()
+            make.width.equalToSuperview().multipliedBy(0.5)
             make.height.equalTo(40)
         }
     }
     
     // MARK: - Methods
     @objc func displayTime(){
-        let components = calendar.dateComponents([.hour, .minute], from: today)
+        let calendar = Calendar(identifier: .gregorian)
+        let components = calendar.dateComponents([.hour, .minute], from: Date())
         let hour = components.hour!
         let minute = components.minute!
         timeLabel.text = String("\(hour):\(String(format:"%02d",minute))")
     }
-
+    
 }

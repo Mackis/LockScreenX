@@ -6,7 +6,7 @@
 //  Copyright © 2017 Byte Orbit. All rights reserved.
 //
 
-import UIKit
+import UIKit.UIFont
 
 class Theme {
     class fonts {
@@ -33,3 +33,11 @@ class Theme {
         static var triple = 32
     }
 }
+
+
+
+
+
+
+
+
