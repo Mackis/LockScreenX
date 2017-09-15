@@ -13,14 +13,14 @@ import SnapKit
 class LockScreenVC: UIViewController {
     
     // MARK: - UI Components
-    lazy var bgImageView: UIImageView = {
+    private lazy var bgImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFill
         iv.image = #imageLiteral(resourceName: "imgLockScreen")
         return iv
     }()
     
-    lazy var detailContainer: UIView = {
+    private lazy var detailContainer: UIView = {
         let v = UIView()
         v.backgroundColor = UIColor.black.withAlphaComponent(0.2)
         return v
@@ -28,7 +28,7 @@ class LockScreenVC: UIViewController {
     
     
     // Labels
-    lazy var timeLabel: UILabel = {
+    private lazy var timeLabel: UILabel = {
         let l = UILabel()
         l.textColor = .white
         l.font = Theme.fonts.futuraMedium(size: 70)
@@ -36,7 +36,7 @@ class LockScreenVC: UIViewController {
         return l
     }()
     
-    lazy var dateLabel: UILabel = {
+    private lazy var dateLabel: UILabel = {
         let l = UILabel()
         l.textColor = .white
         let dF = DateFormatter()
@@ -47,7 +47,7 @@ class LockScreenVC: UIViewController {
         return l
     }()
     
-    lazy var eventTitle: UILabel = {
+    private lazy var eventTitle: UILabel = {
         let l = UILabel()
         l.textColor = .white
         l.text = "Apple Special Honouring Steve"
@@ -56,7 +56,7 @@ class LockScreenVC: UIViewController {
         return l
     }()
     
-    lazy var eventDateLabel: UILabel = {
+    private lazy var eventDateLabel: UILabel = {
         let l = UILabel()
         l.textColor = .white
         l.text = "Tomorrow at 20:00".uppercased()
@@ -65,7 +65,7 @@ class LockScreenVC: UIViewController {
         return l
     }()
     
-    lazy var eventDescriptionLabel: UILabel = {
+    private lazy var eventDescriptionLabel: UILabel = {
         let l = UILabel()
         l.textColor = .white
         l.font = Theme.fonts.avenirLight(size: 16)
@@ -74,7 +74,7 @@ class LockScreenVC: UIViewController {
         return l
     }()
     
-    lazy var arrowBtn: UIButton = {
+    private lazy var arrowBtn: UIButton = {
         let b = UIButton()
         b.setIcon(icon: .dripicon(.arrowThinRight), iconSize: 40, color: .white, forState: .normal)
         return b
