@@ -1,7 +1,7 @@
 # LockScreenX
 ------------------------------------------------------
 
-<img src="LockScreenX/Resources/preview.png" width="525"/>
+<img src="LockScreenX/Resources/preview.jpg" width="525"/>
 
 design by: Nikola Uzunov on upLabs, src: https://www.uplabs.com/posts/iphone-x-ios-11-lock-screen
 
