@@ -23,9 +23,9 @@
 		9D2310611F6BAE7A008A3A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2310641F6BAE7A008A3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2310661F6BAE7A008A3A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D2310711F6BAED2008A3A58 /* preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview.jpg; sourceTree = "<group>"; };
 		9D2310721F6BB058008A3A58 /* LockScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenVC.swift; sourceTree = "<group>"; };
 		9D2310741F6BB134008A3A58 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9D9C63F61F6BC3E700EA6CBC /* preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview.jpg; sourceTree = "<group>"; };
 		E2FC8D862BC0BE4394DBC52B /* Pods-LockScreenX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockScreenX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LockScreenX/Pods-LockScreenX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 		9D2310701F6BAE9D008A3A58 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9D2310711F6BAED2008A3A58 /* preview.jpg */,
+				9D9C63F61F6BC3E700EA6CBC /* preview.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

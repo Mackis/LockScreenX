@@ -21,6 +21,10 @@ class Theme {
         class func avenirMedium(size: CGFloat) -> UIFont {
             return UIFont(name: "Avenir-Medium", size: size)!
         }
+        
+        class func futuraMedium(size: CGFloat) -> UIFont {
+            return UIFont(name: "Futura-Medium", size: size)!
+        }
     }
     
     class inset {

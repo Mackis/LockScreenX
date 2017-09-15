@@ -35,7 +35,7 @@ class LockScreenVC: UIViewController {
     lazy var timeLabel: UILabel = {
         let l = UILabel()
         l.textColor = .white
-        l.font = Theme.fonts.avenirLight(size: 70)
+        l.font = Theme.fonts.futuraMedium(size: 70)
         let date = Date()
         return l
     }()
