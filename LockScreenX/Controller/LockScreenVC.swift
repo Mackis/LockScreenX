@@ -141,7 +141,7 @@ class LockScreenVC: UIViewController {
         timeLabel.snp.makeConstraints{ make in
             make.top.equalTo(view.safeAreaLayoutGuide.snp.top).inset(Theme.inset.triple)
             make.left.equalToSuperview().inset(Theme.inset.double)
-            make.width.lessThanOrEqualToSuperview().multipliedBy(0.5)
+            make.width.lessThanOrEqualToSuperview()
             make.height.equalTo(80)
         }
         
