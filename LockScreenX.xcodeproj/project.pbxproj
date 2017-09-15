@@ -8,20 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		9D23105B1F6BAE7A008A3A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23105A1F6BAE7A008A3A58 /* AppDelegate.swift */; };
-		9D23105D1F6BAE7A008A3A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23105C1F6BAE7A008A3A58 /* ViewController.swift */; };
-		9D2310601F6BAE7A008A3A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D23105E1F6BAE7A008A3A58 /* Main.storyboard */; };
 		9D2310621F6BAE7A008A3A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2310611F6BAE7A008A3A58 /* Assets.xcassets */; };
 		9D2310651F6BAE7A008A3A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2310631F6BAE7A008A3A58 /* LaunchScreen.storyboard */; };
+		9D2310731F6BB058008A3A58 /* LockScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2310721F6BB058008A3A58 /* LockScreenVC.swift */; };
+		9D2310751F6BB134008A3A58 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2310741F6BB134008A3A58 /* Theme.swift */; };
+		B10FAC7B53C15B15C1B723B5 /* Pods_LockScreenX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1EEFD13C5498CE6503C66 /* Pods_LockScreenX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B1EEFD13C5498CE6503C66 /* Pods_LockScreenX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LockScreenX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC90B260BB3313E9E6745D7 /* Pods-LockScreenX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockScreenX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LockScreenX/Pods-LockScreenX.release.xcconfig"; sourceTree = "<group>"; };
 		9D2310571F6BAE7A008A3A58 /* LockScreenX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreenX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D23105A1F6BAE7A008A3A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D23105C1F6BAE7A008A3A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D23105F1F6BAE7A008A3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D2310611F6BAE7A008A3A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2310641F6BAE7A008A3A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2310661F6BAE7A008A3A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2310711F6BAED2008A3A58 /* preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview.jpg; sourceTree = "<group>"; };
+		9D2310721F6BB058008A3A58 /* LockScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenVC.swift; sourceTree = "<group>"; };
+		9D2310741F6BB134008A3A58 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E2FC8D862BC0BE4394DBC52B /* Pods-LockScreenX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockScreenX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LockScreenX/Pods-LockScreenX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10FAC7B53C15B15C1B723B5 /* Pods_LockScreenX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EBF50AA2365D04C1C1EFF2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2FC8D862BC0BE4394DBC52B /* Pods-LockScreenX.debug.xcconfig */,
+				1CC90B260BB3313E9E6745D7 /* Pods-LockScreenX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A72C822F4456AB6859CCD77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B1EEFD13C5498CE6503C66 /* Pods_LockScreenX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9D23104E1F6BAE7A008A3A58 = {
 			isa = PBXGroup;
 			children = (
 				9D2310591F6BAE7A008A3A58 /* LockScreenX */,
 				9D2310581F6BAE7A008A3A58 /* Products */,
+				3EBF50AA2365D04C1C1EFF2A /* Pods */,
+				9A72C822F4456AB6859CCD77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,47 @@
 		9D2310591F6BAE7A008A3A58 /* LockScreenX */ = {
 			isa = PBXGroup;
 			children = (
-				9D23105A1F6BAE7A008A3A58 /* AppDelegate.swift */,
-				9D23105C1F6BAE7A008A3A58 /* ViewController.swift */,
-				9D23105E1F6BAE7A008A3A58 /* Main.storyboard */,
+				9D23106D1F6BAE85008A3A58 /* Application */,
+				9D23106E1F6BAE8E008A3A58 /* Controller */,
+				9D23106F1F6BAE97008A3A58 /* Helper */,
+				9D2310701F6BAE9D008A3A58 /* Resources */,
 				9D2310611F6BAE7A008A3A58 /* Assets.xcassets */,
-				9D2310631F6BAE7A008A3A58 /* LaunchScreen.storyboard */,
-				9D2310661F6BAE7A008A3A58 /* Info.plist */,
 			);
 			path = LockScreenX;
+			sourceTree = "<group>";
+		};
+		9D23106D1F6BAE85008A3A58 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9D2310661F6BAE7A008A3A58 /* Info.plist */,
+				9D2310631F6BAE7A008A3A58 /* LaunchScreen.storyboard */,
+				9D23105A1F6BAE7A008A3A58 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9D23106E1F6BAE8E008A3A58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D2310721F6BB058008A3A58 /* LockScreenVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D23106F1F6BAE97008A3A58 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9D2310741F6BB134008A3A58 /* Theme.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9D2310701F6BAE9D008A3A58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D2310711F6BAED2008A3A58 /* preview.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D2310691F6BAE7A008A3A58 /* Build configuration list for PBXNativeTarget "LockScreenX" */;
 			buildPhases = (
+				0235E2F9E48A03BA0CE2D76D /* [CP] Check Pods Manifest.lock */,
 				9D2310531F6BAE7A008A3A58 /* Sources */,
 				9D2310541F6BAE7A008A3A58 /* Frameworks */,
 				9D2310551F6BAE7A008A3A58 /* Resources */,
+				F41B1331A16890B6DC26CC8A /* [CP] Embed Pods Frameworks */,
+				8E885044F3C6EE6BD04B6E57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +186,73 @@
 			files = (
 				9D2310651F6BAE7A008A3A58 /* LaunchScreen.storyboard in Resources */,
 				9D2310621F6BAE7A008A3A58 /* Assets.xcassets in Resources */,
-				9D2310601F6BAE7A008A3A58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0235E2F9E48A03BA0CE2D76D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E885044F3C6EE6BD04B6E57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockScreenX/Pods-LockScreenX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41B1331A16890B6DC26CC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockScreenX/Pods-LockScreenX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D2310531F6BAE7A008A3A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D23105D1F6BAE7A008A3A58 /* ViewController.swift in Sources */,
+				9D2310751F6BB134008A3A58 /* Theme.swift in Sources */,
 				9D23105B1F6BAE7A008A3A58 /* AppDelegate.swift in Sources */,
+				9D2310731F6BB058008A3A58 /* LockScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9D23105E1F6BAE7A008A3A58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D23105F1F6BAE7A008A3A58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9D2310631F6BAE7A008A3A58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,29 +373,33 @@
 		};
 		9D23106A1F6BAE7A008A3A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FC8D862BC0BE4394DBC52B /* Pods-LockScreenX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LockScreenX/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LockScreenX/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteorbit.malcolm.LockScreenX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9D23106B1F6BAE7A008A3A58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC90B260BB3313E9E6745D7 /* Pods-LockScreenX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LockScreenX/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LockScreenX/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteorbit.malcolm.LockScreenX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

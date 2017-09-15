@@ -1,0 +1,25 @@
+PODS:
+  - SnapKit (3.2.0)
+  - SwiftIcons (1.5.1)
+
+DEPENDENCIES:
+  - SnapKit (from `https://github.com/SnapKit/SnapKit.git`, branch `swift-4`)
+  - SwiftIcons (~> 1.5.1)
+
+EXTERNAL SOURCES:
+  SnapKit:
+    :branch: swift-4
+    :git: https://github.com/SnapKit/SnapKit.git
+
+CHECKOUT OPTIONS:
+  SnapKit:
+    :commit: d31148f449abe819fd1a58d5e07e94874c7e6003
+    :git: https://github.com/SnapKit/SnapKit.git
+
+SPEC CHECKSUMS:
+  SnapKit: c71c530b73cedd2a8b998098687001baff265086
+  SwiftIcons: 287593643898af5a9ef16be4b1f9cf91a436cbc7
+
+PODFILE CHECKSUM: f44824fc2d21165efd3d07f7cb339928ff29ec56
+
+COCOAPODS: 1.0.1
