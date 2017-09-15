@@ -12,7 +12,7 @@ This application simply displays a mock-up lockscreen for the iPhone X. This pro
 
 Medium Article
 ---------------------------------------
-*In the works*
+https://medium.com/@malcolmcollin/look-mom-no-storyboard-1e721101c29f
 
 
 _Concepts used:_
